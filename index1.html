@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Raditya Wirayudha</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">RW</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Raditya Wirayudha</h1>
+      <p class="hero-title">Full Stack Developer</p>
+      <p class="hero-description">Information Systems student experienced in building scalable web applications with modern technologies. Passionate about clean code, system architecture, and delivering impactful digital solutions.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="hero-avatar">
+        <span>RW</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>I'm a highly motivated Information Systems student at Telkom University Jakarta with a strong interest in software engineering and web development. I have hands-on experience in full-stack development using modern frameworks and tools, with project leadership experience building scalable applications.</p>
+          <p>Skilled in algorithm design, debugging, system analysis, and explaining technical concepts. I've served as a Teaching Assistant for Algorithm and Programming, mentoring over 40 students in C# fundamentals and lab sessions.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number" data-target="6">0</span>
+              <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-target="40">0</span>
+              <span class="stat-label">Students Mentored</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-target="3">0</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon" data-skill="react" data-color="#61DAFB"></div>
+          <h3>React</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon" data-skill="nextjs" data-color="#FFFFFF"></div>
+          <h3>Next.js</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon" data-skill="typescript" data-color="#3178C6"></div>
+          <h3>TypeScript</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon" data-skill="javascript" data-color="#F7DF1E"></div>
+          <h3>JavaScript</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon" data-skill="nodejs" data-color="#339933"></div>
+          <h3>Node.js</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon" data-skill="php" data-color="#777BB4"></div>
+          <h3>PHP</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon" data-skill="python" data-color="#3776AB"></div>
+          <h3>Python</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon" data-skill="laravel" data-color="#FF2D20"></div>
+          <h3>Laravel</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon" data-skill="tailwindcss" data-color="#06B6D4"></div>
+          <h3>Tailwind CSS</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon" data-skill="postgresql" data-color="#4169E1"></div>
+          <h3>PostgreSQL</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon" data-skill="prisma" data-color="#E2E8F0"></div>
+          <h3>Prisma</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon" data-skill="docker" data-color="#2496ED"></div>
+          <h3>Docker</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <div class="project-placeholder">AiNgePRD</div>
+          </div>
+          <div class="project-info">
+            <h3>AiNgePRD</h3>
+            <p>An AI-powered Product Requirements Document generator with a conversational chat interface. Users describe product ideas and receive structured PRD outputs through guided multi-turn AI conversations.</p>
+            <div class="project-tags">
+              <span>Next.js</span>
+              <span>React 19</span>
+              <span>TypeScript</span>
+              <span>Supabase</span>
+              <span>Clerk</span>
+              <span>OpenRouter AI</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-small">Live Demo</a>
+              <a href="#" class="btn btn-small btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <div class="project-placeholder">WebIDid</div>
+          </div>
+          <div class="project-info">
+            <h3>WebIDid</h3>
+            <p>A full-stack starter kit marketplace enabling Indonesian university students to discover and purchase ready-to-use website templates. Features a WhatsApp-based ordering system and a full admin dashboard.</p>
+            <div class="project-tags">
+              <span>Next.js</span>
+              <span>React 19</span>
+              <span>Tailwind CSS</span>
+              <span>Supabase</span>
+              <span>Framer Motion</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-small">Live Demo</a>
+              <a href="#" class="btn btn-small btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <p>Have a project in mind or want to collaborate? Feel free to reach out!</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-label">Email</span>
+              <a href="mailto:radityawirayudha@gmail.com">radityawirayudha@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">Location</span>
+              <span>Tangerang, Banten, Indonesia</span>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/raditya-wirayudha-b31b38237/" class="social-link" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Raditya Wirayudha. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a href="#home" class="back-to-top" id="back-to-top" aria-label="Back to top">↑</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
